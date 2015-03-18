@@ -546,9 +546,9 @@ body.nav-opened .nav-cover {
 }
 
 body.nav-closed .nav {
-    -webkit-transform: translate3D(97px, 0, 0);
-        -ms-transform: translate3D(97px, 0, 0);
-            transform: translate3D(97px, 0, 0);
+    -webkit-transform: translate3D(0px, 0, 0);
+        -ms-transform: translate3D(0px, 0, 0);
+            transform: translate3D(0px, 0, 0);
 }
 
 body.nav-opened .nav {
@@ -790,7 +790,7 @@ body.nav-opened .nav {
     white-space: nowrap;
     border-radius: 3px;
     background: rgba(0,0,0,0.1);
-    transition: all 0.5s ease;
+
 }
 .menu-button:focus {
     outline: 0;
@@ -803,9 +803,6 @@ body.nav-opened .nav {
 body.nav-opened .menu-button {
     visibility: hidden;
     padding: 0 12px;
-    background: #111 !important;
-    border-color: #111 !important;
-    color: #fff !important;
     -webkit-transform: translate3D(94px, 0, 0);
         -ms-transform: translate3D(94px, 0, 0);
             transform: translate3D(94px, 0, 0);
