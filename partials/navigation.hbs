@@ -1,9 +1,10 @@
+
 <div class="nav">
     <h3 class="nav-title">Menu</h3>
-   
-     {{#foreach navigation}}
-            <a class="sidebar-nav-item" href="{{url absolute="true"}}">{{label}}</a>
-     {{/foreach}}
-    
+    <ul>
+        {{#foreach navigation}}
+            <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>        {{/foreach}}
+    </ul>
+  
 </div>
 <span class="nav-cover"></span>
